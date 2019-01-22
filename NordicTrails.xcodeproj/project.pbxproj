@@ -1,0 +1,799 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0563FD594B0B6162D16B9E54 /* Pods_NordicTrails.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5EAD1C05F4CE9D162810FEF /* Pods_NordicTrails.framework */; };
+		AB0B5E7D219751840025FA55 /* TrailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0B5E7C219751840025FA55 /* TrailsModel.swift */; };
+		AB0B5E7F219751FD0025FA55 /* TrailsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0B5E7E219751FD0025FA55 /* TrailsData.swift */; };
+		AB0B5E8321975B510025FA55 /* TrailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0B5E8221975B510025FA55 /* TrailsTableViewCell.swift */; };
+		AB0B5E88219909A30025FA55 /* TrailDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0B5E87219909A30025FA55 /* TrailDataViewController.swift */; };
+		AB1961AF218E7B6B00D49033 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1961AE218E7B6B00D49033 /* AppDelegate.swift */; };
+		AB1961B1218E7B6B00D49033 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1961B0218E7B6B00D49033 /* FirstViewController.swift */; };
+		AB1961B3218E7B6B00D49033 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1961B2218E7B6B00D49033 /* SecondViewController.swift */; };
+		AB1961B6218E7B6B00D49033 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB1961B4218E7B6B00D49033 /* Main.storyboard */; };
+		AB1961BB218E7B6B00D49033 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB1961B9218E7B6B00D49033 /* LaunchScreen.storyboard */; };
+		AB1961C6218E7B6B00D49033 /* NordicTrailsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1961C5218E7B6B00D49033 /* NordicTrailsTests.swift */; };
+		AB1961D1218E7B6B00D49033 /* NordicTrailsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1961D0218E7B6B00D49033 /* NordicTrailsUITests.swift */; };
+		AB1961E0218E7E8E00D49033 /* ParksModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1961DF218E7E8E00D49033 /* ParksModel.swift */; };
+		AB1961E2218E7F1000D49033 /* ParksData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1961E1218E7F1000D49033 /* ParksData.swift */; };
+		AB1961E4218E7F4800D49033 /* ParksFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1961E3218E7F4800D49033 /* ParksFunctions.swift */; };
+		AB1961E8218FB50500D49033 /* ParksTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1961E7218FB50500D49033 /* ParksTableViewCell.swift */; };
+		AB1961EA21952CFE00D49033 /* TrailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1961E921952CFE00D49033 /* TrailsViewController.swift */; };
+		AB1E3B4C21BC58C900FD1960 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1E3B4B21BC58C900FD1960 /* Theme.swift */; };
+		AB1E3B4E21BC592700FD1960 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB1E3B4D21BC592700FD1960 /* Colors.xcassets */; };
+		AB78029321E59501008E5ACF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB78029221E59501008E5ACF /* Assets.xcassets */; };
+		F1BCC19BC9D3B05E99BCBAD8 /* Pods_NordicTrailsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C311D1A63E27EE203158EB1 /* Pods_NordicTrailsTests.framework */; };
+		FB29B2DDC990E015D7528A27 /* Pods_NordicTrailsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED07882303EA31CB3618D84C /* Pods_NordicTrailsUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB1961C2218E7B6B00D49033 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB1961A3218E7B6A00D49033 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB1961AA218E7B6A00D49033;
+			remoteInfo = NordicTrails;
+		};
+		AB1961CD218E7B6B00D49033 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB1961A3218E7B6A00D49033 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB1961AA218E7B6A00D49033;
+			remoteInfo = NordicTrails;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03EC2480160E52A46F44EA6B /* Pods-NordicTrailsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NordicTrailsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NordicTrailsTests/Pods-NordicTrailsTests.release.xcconfig"; sourceTree = "<group>"; };
+		1C311D1A63E27EE203158EB1 /* Pods_NordicTrailsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NordicTrailsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20603C64918666BCC05C2C75 /* Pods-NordicTrailsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NordicTrailsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NordicTrailsTests/Pods-NordicTrailsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AB0B5E7C219751840025FA55 /* TrailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailsModel.swift; sourceTree = "<group>"; };
+		AB0B5E7E219751FD0025FA55 /* TrailsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailsData.swift; sourceTree = "<group>"; };
+		AB0B5E8221975B510025FA55 /* TrailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailsTableViewCell.swift; sourceTree = "<group>"; };
+		AB0B5E87219909A30025FA55 /* TrailDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailDataViewController.swift; sourceTree = "<group>"; };
+		AB1961AB218E7B6B00D49033 /* NordicTrails.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NordicTrails.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1961AE218E7B6B00D49033 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB1961B0218E7B6B00D49033 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		AB1961B2218E7B6B00D49033 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		AB1961B5218E7B6B00D49033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB1961BA218E7B6B00D49033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB1961BC218E7B6B00D49033 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB1961C1218E7B6B00D49033 /* NordicTrailsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NordicTrailsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1961C5218E7B6B00D49033 /* NordicTrailsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NordicTrailsTests.swift; sourceTree = "<group>"; };
+		AB1961C7218E7B6B00D49033 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB1961CC218E7B6B00D49033 /* NordicTrailsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NordicTrailsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1961D0218E7B6B00D49033 /* NordicTrailsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NordicTrailsUITests.swift; sourceTree = "<group>"; };
+		AB1961D2218E7B6B00D49033 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB1961DF218E7E8E00D49033 /* ParksModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParksModel.swift; sourceTree = "<group>"; };
+		AB1961E1218E7F1000D49033 /* ParksData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParksData.swift; sourceTree = "<group>"; };
+		AB1961E3218E7F4800D49033 /* ParksFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParksFunctions.swift; sourceTree = "<group>"; };
+		AB1961E7218FB50500D49033 /* ParksTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParksTableViewCell.swift; sourceTree = "<group>"; };
+		AB1961E921952CFE00D49033 /* TrailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailsViewController.swift; sourceTree = "<group>"; };
+		AB1E3B4B21BC58C900FD1960 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		AB1E3B4D21BC592700FD1960 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		AB78029221E59501008E5ACF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
+		B922FDA5887B6C7108448C46 /* Pods-NordicTrailsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NordicTrailsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NordicTrailsUITests/Pods-NordicTrailsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CDDC73CBE6D2DE30887DAC3D /* Pods-NordicTrails.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NordicTrails.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NordicTrails/Pods-NordicTrails.debug.xcconfig"; sourceTree = "<group>"; };
+		D383E73E85366D2FA650FF61 /* Pods-NordicTrailsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NordicTrailsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NordicTrailsUITests/Pods-NordicTrailsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D5EAD1C05F4CE9D162810FEF /* Pods_NordicTrails.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NordicTrails.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED07882303EA31CB3618D84C /* Pods_NordicTrailsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NordicTrailsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0FB23B9034AB51425BBE9F4 /* Pods-NordicTrails.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NordicTrails.release.xcconfig"; path = "Pods/Target Support Files/Pods-NordicTrails/Pods-NordicTrails.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB1961A8218E7B6A00D49033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0563FD594B0B6162D16B9E54 /* Pods_NordicTrails.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1961BE218E7B6B00D49033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1BCC19BC9D3B05E99BCBAD8 /* Pods_NordicTrailsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1961C9218E7B6B00D49033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB29B2DDC990E015D7528A27 /* Pods_NordicTrailsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1594DCA4AF42B0516946CF71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5EAD1C05F4CE9D162810FEF /* Pods_NordicTrails.framework */,
+				1C311D1A63E27EE203158EB1 /* Pods_NordicTrailsTests.framework */,
+				ED07882303EA31CB3618D84C /* Pods_NordicTrailsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		550F89ACE4BC1AF8B156FE6E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CDDC73CBE6D2DE30887DAC3D /* Pods-NordicTrails.debug.xcconfig */,
+				F0FB23B9034AB51425BBE9F4 /* Pods-NordicTrails.release.xcconfig */,
+				20603C64918666BCC05C2C75 /* Pods-NordicTrailsTests.debug.xcconfig */,
+				03EC2480160E52A46F44EA6B /* Pods-NordicTrailsTests.release.xcconfig */,
+				B922FDA5887B6C7108448C46 /* Pods-NordicTrailsUITests.debug.xcconfig */,
+				D383E73E85366D2FA650FF61 /* Pods-NordicTrailsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AB1961A2218E7B6A00D49033 = {
+			isa = PBXGroup;
+			children = (
+				AB1961AD218E7B6B00D49033 /* NordicTrails */,
+				AB1961C4218E7B6B00D49033 /* NordicTrailsTests */,
+				AB1961CF218E7B6B00D49033 /* NordicTrailsUITests */,
+				AB1961AC218E7B6B00D49033 /* Products */,
+				550F89ACE4BC1AF8B156FE6E /* Pods */,
+				1594DCA4AF42B0516946CF71 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AB1961AC218E7B6B00D49033 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB1961AB218E7B6B00D49033 /* NordicTrails.app */,
+				AB1961C1218E7B6B00D49033 /* NordicTrailsTests.xctest */,
+				AB1961CC218E7B6B00D49033 /* NordicTrailsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB1961AD218E7B6B00D49033 /* NordicTrails */ = {
+			isa = PBXGroup;
+			children = (
+				AB1E3B4A21BC520A00FD1960 /* Theme */,
+				AB1961DE218E7E6800D49033 /* Model */,
+				AB1961AE218E7B6B00D49033 /* AppDelegate.swift */,
+				AB1961B0218E7B6B00D49033 /* FirstViewController.swift */,
+				AB1961B2218E7B6B00D49033 /* SecondViewController.swift */,
+				AB1961E921952CFE00D49033 /* TrailsViewController.swift */,
+				AB0B5E87219909A30025FA55 /* TrailDataViewController.swift */,
+				AB1961B4218E7B6B00D49033 /* Main.storyboard */,
+				AB78029221E59501008E5ACF /* Assets.xcassets */,
+				AB1961B9218E7B6B00D49033 /* LaunchScreen.storyboard */,
+				AB1961BC218E7B6B00D49033 /* Info.plist */,
+				AB1961E7218FB50500D49033 /* ParksTableViewCell.swift */,
+				AB0B5E8221975B510025FA55 /* TrailsTableViewCell.swift */,
+			);
+			path = NordicTrails;
+			sourceTree = "<group>";
+		};
+		AB1961C4218E7B6B00D49033 /* NordicTrailsTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB1961C5218E7B6B00D49033 /* NordicTrailsTests.swift */,
+				AB1961C7218E7B6B00D49033 /* Info.plist */,
+			);
+			path = NordicTrailsTests;
+			sourceTree = "<group>";
+		};
+		AB1961CF218E7B6B00D49033 /* NordicTrailsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB1961D0218E7B6B00D49033 /* NordicTrailsUITests.swift */,
+				AB1961D2218E7B6B00D49033 /* Info.plist */,
+			);
+			path = NordicTrailsUITests;
+			sourceTree = "<group>";
+		};
+		AB1961DE218E7E6800D49033 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB1961DF218E7E8E00D49033 /* ParksModel.swift */,
+				AB1961E1218E7F1000D49033 /* ParksData.swift */,
+				AB1961E3218E7F4800D49033 /* ParksFunctions.swift */,
+				AB0B5E7C219751840025FA55 /* TrailsModel.swift */,
+				AB0B5E7E219751FD0025FA55 /* TrailsData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AB1E3B4A21BC520A00FD1960 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				AB1E3B4B21BC58C900FD1960 /* Theme.swift */,
+				AB1E3B4D21BC592700FD1960 /* Colors.xcassets */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB1961AA218E7B6A00D49033 /* NordicTrails */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB1961D5218E7B6B00D49033 /* Build configuration list for PBXNativeTarget "NordicTrails" */;
+			buildPhases = (
+				D8A9429B2E0AF0E1317E0276 /* [CP] Check Pods Manifest.lock */,
+				AB1961A7218E7B6A00D49033 /* Sources */,
+				AB1961A8218E7B6A00D49033 /* Frameworks */,
+				AB1961A9218E7B6A00D49033 /* Resources */,
+				7AC6C4837A05D1DBFE8FA942 /* [CP] Embed Pods Frameworks */,
+				5A0138CCA9F02DD4AB8C33C4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NordicTrails;
+			productName = NordicTrails;
+			productReference = AB1961AB218E7B6B00D49033 /* NordicTrails.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB1961C0218E7B6B00D49033 /* NordicTrailsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB1961D8218E7B6B00D49033 /* Build configuration list for PBXNativeTarget "NordicTrailsTests" */;
+			buildPhases = (
+				B3B0F40897E852D269D2D3CE /* [CP] Check Pods Manifest.lock */,
+				AB1961BD218E7B6B00D49033 /* Sources */,
+				AB1961BE218E7B6B00D49033 /* Frameworks */,
+				AB1961BF218E7B6B00D49033 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB1961C3218E7B6B00D49033 /* PBXTargetDependency */,
+			);
+			name = NordicTrailsTests;
+			productName = NordicTrailsTests;
+			productReference = AB1961C1218E7B6B00D49033 /* NordicTrailsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB1961CB218E7B6B00D49033 /* NordicTrailsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB1961DB218E7B6B00D49033 /* Build configuration list for PBXNativeTarget "NordicTrailsUITests" */;
+			buildPhases = (
+				00223053F85F4C8BC2A2CF30 /* [CP] Check Pods Manifest.lock */,
+				AB1961C8218E7B6B00D49033 /* Sources */,
+				AB1961C9218E7B6B00D49033 /* Frameworks */,
+				AB1961CA218E7B6B00D49033 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB1961CE218E7B6B00D49033 /* PBXTargetDependency */,
+			);
+			name = NordicTrailsUITests;
+			productName = NordicTrailsUITests;
+			productReference = AB1961CC218E7B6B00D49033 /* NordicTrailsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB1961A3218E7B6A00D49033 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Samuel Grosenick";
+				TargetAttributes = {
+					AB1961AA218E7B6A00D49033 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					AB1961C0218E7B6B00D49033 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = AB1961AA218E7B6A00D49033;
+					};
+					AB1961CB218E7B6B00D49033 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = AB1961AA218E7B6A00D49033;
+					};
+				};
+			};
+			buildConfigurationList = AB1961A6218E7B6A00D49033 /* Build configuration list for PBXProject "NordicTrails" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB1961A2218E7B6A00D49033;
+			productRefGroup = AB1961AC218E7B6B00D49033 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB1961AA218E7B6A00D49033 /* NordicTrails */,
+				AB1961C0218E7B6B00D49033 /* NordicTrailsTests */,
+				AB1961CB218E7B6B00D49033 /* NordicTrailsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB1961A9218E7B6A00D49033 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1961BB218E7B6B00D49033 /* LaunchScreen.storyboard in Resources */,
+				AB1E3B4E21BC592700FD1960 /* Colors.xcassets in Resources */,
+				AB78029321E59501008E5ACF /* Assets.xcassets in Resources */,
+				AB1961B6218E7B6B00D49033 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1961BF218E7B6B00D49033 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1961CA218E7B6B00D49033 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00223053F85F4C8BC2A2CF30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NordicTrailsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A0138CCA9F02DD4AB8C33C4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NordicTrails/Pods-NordicTrails-resources.sh",
+				"${PODS_ROOT}/ArcGIS-Runtime-SDK-iOS/ArcGIS.framework/ArcGIS.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ArcGIS.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NordicTrails/Pods-NordicTrails-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AC6C4837A05D1DBFE8FA942 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NordicTrails/Pods-NordicTrails-frameworks.sh",
+				"${PODS_ROOT}/ArcGIS-Runtime-SDK-iOS/ArcGIS.framework",
+				"${PODS_ROOT}/ArcGIS-Runtime-SDK-iOS/ArcGIS.framework.dSYM",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ArcGIS.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/ArcGIS.framework.dSYM",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NordicTrails/Pods-NordicTrails-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3B0F40897E852D269D2D3CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NordicTrailsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8A9429B2E0AF0E1317E0276 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NordicTrails-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB1961A7218E7B6A00D49033 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1961E2218E7F1000D49033 /* ParksData.swift in Sources */,
+				AB1961B3218E7B6B00D49033 /* SecondViewController.swift in Sources */,
+				AB1961E0218E7E8E00D49033 /* ParksModel.swift in Sources */,
+				AB1961EA21952CFE00D49033 /* TrailsViewController.swift in Sources */,
+				AB1E3B4C21BC58C900FD1960 /* Theme.swift in Sources */,
+				AB0B5E7D219751840025FA55 /* TrailsModel.swift in Sources */,
+				AB0B5E88219909A30025FA55 /* TrailDataViewController.swift in Sources */,
+				AB1961E4218E7F4800D49033 /* ParksFunctions.swift in Sources */,
+				AB0B5E7F219751FD0025FA55 /* TrailsData.swift in Sources */,
+				AB1961E8218FB50500D49033 /* ParksTableViewCell.swift in Sources */,
+				AB1961AF218E7B6B00D49033 /* AppDelegate.swift in Sources */,
+				AB1961B1218E7B6B00D49033 /* FirstViewController.swift in Sources */,
+				AB0B5E8321975B510025FA55 /* TrailsTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1961BD218E7B6B00D49033 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1961C6218E7B6B00D49033 /* NordicTrailsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1961C8218E7B6B00D49033 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1961D1218E7B6B00D49033 /* NordicTrailsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB1961C3218E7B6B00D49033 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB1961AA218E7B6A00D49033 /* NordicTrails */;
+			targetProxy = AB1961C2218E7B6B00D49033 /* PBXContainerItemProxy */;
+		};
+		AB1961CE218E7B6B00D49033 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB1961AA218E7B6A00D49033 /* NordicTrails */;
+			targetProxy = AB1961CD218E7B6B00D49033 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB1961B4218E7B6B00D49033 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB1961B5218E7B6B00D49033 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB1961B9218E7B6B00D49033 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB1961BA218E7B6B00D49033 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB1961D3218E7B6B00D49033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB1961D4218E7B6B00D49033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB1961D6218E7B6B00D49033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDDC73CBE6D2DE30887DAC3D /* Pods-NordicTrails.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 433GYPM95F;
+				INFOPLIST_FILE = NordicTrails/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NordicTrails;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB1961D7218E7B6B00D49033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0FB23B9034AB51425BBE9F4 /* Pods-NordicTrails.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 433GYPM95F;
+				INFOPLIST_FILE = NordicTrails/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NordicTrails;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB1961D9218E7B6B00D49033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20603C64918666BCC05C2C75 /* Pods-NordicTrailsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NordicTrailsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NordicTrailsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NordicTrails.app/NordicTrails";
+			};
+			name = Debug;
+		};
+		AB1961DA218E7B6B00D49033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03EC2480160E52A46F44EA6B /* Pods-NordicTrailsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NordicTrailsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NordicTrailsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NordicTrails.app/NordicTrails";
+			};
+			name = Release;
+		};
+		AB1961DC218E7B6B00D49033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B922FDA5887B6C7108448C46 /* Pods-NordicTrailsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NordicTrailsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NordicTrailsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NordicTrails;
+			};
+			name = Debug;
+		};
+		AB1961DD218E7B6B00D49033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D383E73E85366D2FA650FF61 /* Pods-NordicTrailsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NordicTrailsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NordicTrailsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NordicTrails;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB1961A6218E7B6A00D49033 /* Build configuration list for PBXProject "NordicTrails" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1961D3218E7B6B00D49033 /* Debug */,
+				AB1961D4218E7B6B00D49033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB1961D5218E7B6B00D49033 /* Build configuration list for PBXNativeTarget "NordicTrails" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1961D6218E7B6B00D49033 /* Debug */,
+				AB1961D7218E7B6B00D49033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB1961D8218E7B6B00D49033 /* Build configuration list for PBXNativeTarget "NordicTrailsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1961D9218E7B6B00D49033 /* Debug */,
+				AB1961DA218E7B6B00D49033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB1961DB218E7B6B00D49033 /* Build configuration list for PBXNativeTarget "NordicTrailsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1961DC218E7B6B00D49033 /* Debug */,
+				AB1961DD218E7B6B00D49033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB1961A3218E7B6A00D49033 /* Project object */;
+}
